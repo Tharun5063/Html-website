@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Online ticket booking</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script type="text/javascript" src="javascript.js"></script>
+
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body style="font-family:Segoe UI; font-size:10px;">
+	<header>
+	<div class="row">
+	  <div class="logo">
+	  	<img src="bookmyshow.png" alt="image"><br>
+		<br>
+	  </div>
+   
+	<ul class="main-nav">  
+  
+   <div class="dropdown">
+     <button class="dropbtn"> Category
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="horror.html">Horror</a>
+      <a href="Action.html">Action</a> 
+	  </div>
+      </div>
+
+  <li><a href="#">Home</a></li>
+  <li><a href="cown.html">Contact us</a></li>
+  <li><a href="aboutuss.html">About us</a></li>
+  <li><a href="loginupdate.html">Login</a></li> 
+
+</ul>
+</div>
+<form class="search">
+  <input class="searchTerm" placeholder="search ..." />
+  <input class="searchButton" type="submit" />
+</form>
+<marquee><h1 style="text-align: center; color: white;">Welcome to online Ticket Booking</h1></marquee>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="pecific.jpg" style="width:70%; height:50%;"></center>
+    <div class="text">Pacific Rim Uprising</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+   <center><img src="ghost house.jpg" style="width:70%; height:50%;"></center>
+    <div class="text">ghost house</div>
+  </div>
+<div class="mySlides fade">
+    <div class="numbertext"></div>
+    <center><img src="infinity war.jpg" style="width:70%; height:50%;"></center>
+    <div class="text">Infinitywar</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+	<center><img src="it.jpg" style="width:70%; height:50%;"></center>
+    <div class="text">It</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div class="icon-bar">
+  <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://plus.google.com/discover" class="google"><i class="fa fa-google"></i></a> 
+  <a href="https://www.linkedin.com/start/join" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://youtube.com" class="youtube"><i class="fa fa-youtube"></i></a> 
+ 
+ 
+
+</body>
+</html> 
